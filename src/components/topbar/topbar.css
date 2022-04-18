@@ -1,0 +1,178 @@
+.topbarContainer {
+  height: 6rem;
+  width: 100%;
+  background-color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0 10%;
+}
+
+.topbarLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  margin: 1rem;
+  height: 100%;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.searchbar {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 2rem !important;
+  margin-left: 1rem;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  margin-left: 2rem;
+  max-width: 30rem;
+}
+
+.topbarIcons {
+  display: flex;
+  position: relative;
+}
+
+.topbarIconItem {
+  margin-right: 2.5rem;
+  cursor: pointer;
+  position: relative;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.topbarIcon {
+  width: 2.8rem !important;
+  height: 2.8rem !important;
+}
+
+.topbarIconBadge {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: tomato;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.topbarImg {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 0.2rem solid white;
+  padding-top: 0.2rem;
+}
+
+.topbar__modal {
+  position: absolute;
+  top: 4rem;
+  left: -4rem;
+  width: 160%;
+  height: 20rem;
+  overflow-y: scroll;
+  color: var(--color-font);
+  font-size: 1.4rem;
+  background: #f6ffc3;
+  box-shadow: 0 0 1rem #00000055;
+  border-radius: 0.4rem;
+}
+
+.notification {
+  padding: 0.5rem 1rem 0.3rem;
+  border-bottom: 0.1rem solid #cfcfcf;
+}
+
+.topbar__friend {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.friend__img {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  border-radius: 100%;
+  border: 0.1rem solid var(--color-primary);
+  padding: 0.1rem;
+}
+
+.friend__name {
+  margin: 0;
+}
+
+.topbar__icon--active {
+  color: var(--color-primary);
+  background: #afafaf;
+}
+
+.empty-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.empty-item__icon {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+
+.btn__logout {
+  margin-left: 2rem;
+  padding: 0.3rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}

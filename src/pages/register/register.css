@@ -1,0 +1,103 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  display: flex;
+  width: 95%;
+  height: 95%;
+}
+
+@media screen and (min-height: 768px) {
+  .loginWrapper {
+    width: 70%;
+    height: 70%;
+  }  
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.appLogo {
+  height: 15rem;
+  width: 12rem;
+}
+
+.loginLogo {
+  font-size: 5rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin: 1rem 0;
+}
+
+.loginDesc {
+  font-size: 2.4rem;
+}
+
+.loginBox{
+    height: 40rem;
+    padding: 2.5rem;
+    background: var(--color-primary);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .loginBox {
+    width: 40rem;
+  }
+}
+
+.loginInput{
+    height: 5rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid transparent;
+    transition: all 0.5s;
+    font-size: 1.8rem;
+    padding: 1.6rem;
+    outline: none;
+}
+
+.loginInput:focus{
+    border: 0.2rem solid var(--color-secondary);
+}
+
+.loginButton{
+    height: 4rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: var(--color-btn-primary);
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.loginRegisterButton{
+    align-self: center;
+    height: 5rem;
+    background: transparent;
+    width: 100%;
+    border: none;
+    color: var(--color-secondary);
+    font-size: 1.8rem;
+    text-decoration: underline;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}

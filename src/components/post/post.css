@@ -1,0 +1,150 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 3rem 0;
+  background: #f5f5ff;
+}
+
+.postWrapper {
+  padding: 1rem;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 0.2rem solid var(--color-primary);
+  padding: 0.1rem;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+.postDate{
+    font-size: 1.2rem;
+}
+
+.postCenter{
+    margin: 2rem 0;
+}
+
+.postText {
+  font-size: 1.6rem;
+}
+
+.postImg{
+    margin-top: 2rem;
+    width: 100%;
+    max-height: 40rem;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.likeIcon{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.postLikeCounter, 
+.postCommentText {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.comment {
+  background: #e1e1ff;
+  margin-bottom: 0.5rem;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.comment__section {
+  padding: 1rem 0.4rem;
+}
+
+.comment--name {
+  font-size: 1.6rem;
+  padding: 0.2rem 1rem;
+  width: fit-content;
+  border-right: 0.3rem solid #f5f5ff;
+  border-bottom: 0.3rem solid #f5f5ff;
+  text-transform: capitalize;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.comment--text { 
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.current-comment {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.current-comment--text {
+  outline: none;
+  border: none;
+  padding: 0.8rem 1rem;
+  background: #e1e1ff;
+  width: 100%;
+  font-size: 1.4rem;
+  resize: none;
+  color: var(--color-font);
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+  transition: all 0.4s;
+}
+
+.current-comment:focus {
+  border: 0.1rem solid var(--color-primary);
+}
+
+.comment--submit {
+  width: 4.2rem;
+  height: 4rem;
+  margin-left: 0.4rem;
+  outline: none;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  background: var(--color-btn-success);
+  cursor: pointer;
+}
+
+/* Videos */
+.postVideo {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 1rem;
+}

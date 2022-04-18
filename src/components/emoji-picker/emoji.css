@@ -1,0 +1,15 @@
+:root {
+  --color-emoji-bg: #9e9393;
+}
+
+.emoji {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  text-align: center;
+  background: var(--color-emoji-bg);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  overflow: hidden;
+}

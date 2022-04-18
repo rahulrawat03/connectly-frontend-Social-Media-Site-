@@ -1,0 +1,30 @@
+:root {
+  --color-picker-shadow: #00000033;
+}
+
+.picker {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 19rem;
+  height: 15rem;
+  overflow: hidden auto;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 1rem 0.5rem var(--color-picker-shadow);
+}
+
+@media screen and (min-width: 588px) {
+  .picker {
+    grid-template-columns: repeat(5, 1fr);
+    width: 23rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .picker {
+    grid-template-columns: repeat(6, 1fr);
+    width: 27rem;
+  }
+}

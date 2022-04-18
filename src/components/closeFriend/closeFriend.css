@@ -1,0 +1,32 @@
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.sidebarFriend:hover {
+  background: #afe2da;
+}
+
+.friendImgContainer {
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarFriendImg {
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+}
